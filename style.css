@@ -161,3 +161,18 @@ font-size: 28px;
 .tel{
 color: white;
 }
+
+@media (max-width:900px){
+    .video{
+        border: 2px solid white;
+    }
+    .logo{
+        display: none;
+    }
+
+}
+@media (max-width:400px) {
+    .video{
+        width: 100%;
+    }
+}
